@@ -12,7 +12,7 @@ header, footer {
   text-align: left;
 }
 header {
-  font-family: Work Sans;
+  font-family: 'Anton', serif;
   color: #fff;
   min-height: 100vh;
   display: flex;
@@ -139,14 +139,27 @@ object-fit: cover;
 }
 
 .container {
+/*  min-width: 500px; */
   margin: auto;
 }
-
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    display: flex;
+    align-content: center;
+    padding: 10px 20px;
+    color: rgba(255, 255, 255, 0.5);
 }
 @media all and (max-width:700px) {
   main {
     grid-template-columns: 1fr;
   }
+  .description {
+    font-size: 18px;
+    padding: 0 20px 20px 20px;
+  }
+}
+a {
+  color: #00b09b;
 }
