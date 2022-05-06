@@ -8,7 +8,7 @@ body {
   margin: 0;
 }
 header, footer {
-  background-color: #e9edc9;
+  background-color: #84a98c;
   text-align: left;
 }
 header {
@@ -41,7 +41,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #e9edc9;
+  color: #84a98c;
   padding: 10px 0px 10px 10px;
 }
 
@@ -60,7 +60,7 @@ object-fit: cover;
 .bio {
   color: #ffffff;
   font-size: 24px;
-  font-family: 'Anton', serif;
+  font-family: 'Lora', serif;
 }
 .buttonBox {
   display: flex;
@@ -120,7 +120,7 @@ object-fit: cover;
 }
 
 .description {
-  font-family: 'Anton', serif;
+  font-family: 'Lora', serif;
   font-size: 14px;
   font-weight: 300;
   line-height: 1.29;
